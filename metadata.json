@@ -1,0 +1,6 @@
+{
+  "name": "Mente Maestra – El Desafío del Conocimiento",
+  "description": "Videojuego futurista de trivia y cultura general con 100 niveles, 10 mundos temáticos, más de 500 preguntas originales, comodines, desafíos especiales y clasificación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
