@@ -13,6 +13,8 @@ import {
   Zap,
 } from 'lucide-react';
 import { motion } from 'motion/react';
+import arenaHeroStageImg from '../assets/images/arena_hero_stage_1794851672005.jpg';
+import masterCrownTrophyImg from '../assets/images/master_crown_trophy_1794851673243.jpg';
 import { computePlayerLevel } from '../data/worlds';
 import { AppView, LevelConfig, PlayerProfile, WorldConfig } from '../types/game';
 import { PlayerAvatar } from './GameArtwork';
@@ -225,7 +227,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           {/* Right Column: Arena Visual Artwork */}
           <div className="lg:col-span-5 relative min-h-[260px] lg:min-h-full border-t lg:border-t-0 lg:border-l border-white/10 overflow-hidden bg-[#060913]">
             <img
-              src="/src/assets/images/arena_hero_stage_1794851672005.jpg"
+              src={arenaHeroStageImg}
               alt="Arena futurista de Mente Maestra"
               referrerPolicy="no-referrer"
               className="h-full w-full object-cover"
@@ -345,7 +347,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
         <div className="rounded-xl border border-amber-500/25 bg-[#0d1326] overflow-hidden flex flex-col">
           <div className="relative h-44 bg-[#060913]">
             <img
-              src="/src/assets/images/master_crown_trophy_1794851673243.jpg"
+              src={masterCrownTrophyImg}
               alt="Trofeo Corona Mente Maestra"
               referrerPolicy="no-referrer"
               className="h-full w-full object-cover"

@@ -1,3 +1,6 @@
+import avatarLuminaryImg from '../assets/images/avatar_luminary_1794851671829.jpg';
+import avatarSentinelImg from '../assets/images/avatar_sentinel_1794851672781.jpg';
+import avatarStrategistImg from '../assets/images/avatar_strategist_1794851672182.jpg';
 import { Badge, LevelConfig, WorldConfig, WorldId } from '../types/game';
 
 export interface AvatarOption {
@@ -13,21 +16,21 @@ export const AVATAR_OPTIONS: AvatarOption[] = [
     id: 'strategist',
     name: 'Estratega Azul',
     title: 'Analista Táctico',
-    image: '/src/assets/images/avatar_strategist_1794851672182.jpg',
+    image: avatarStrategistImg,
     accent: '#2563EB',
   },
   {
     id: 'luminary',
     name: 'Luminaria Púrpura',
     title: 'Erudita Estelar',
-    image: '/src/assets/images/avatar_luminary_1794851671829.jpg',
+    image: avatarLuminaryImg,
     accent: '#7C3AED',
   },
   {
     id: 'sentinel',
     name: 'Centinela Dorado',
     title: 'Guardián del Saber',
-    image: '/src/assets/images/avatar_sentinel_1794851672781.jpg',
+    image: avatarSentinelImg,
     accent: '#F59E0B',
   },
   {
